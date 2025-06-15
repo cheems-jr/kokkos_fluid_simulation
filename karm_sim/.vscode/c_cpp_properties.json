@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include",
+                "/usr/local/Cellar/gcc@13/13.4.0/include/c++/13/x86_64-apple-darwin23",
+                "/usr/local/Cellar/gcc@13/13.4.0/include/c++/13"
+            ],
+            "compilerPath": "/usr/local/bin/g++-13",  
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64" 
+        }
+    ],
+    "version": 4
+}

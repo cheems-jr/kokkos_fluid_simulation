@@ -1,5 +1,5 @@
 #pragma once
-#include <KokkosCore.hpp>
+#include <Kokkos_Core.hpp>
 
 class sim
 {
