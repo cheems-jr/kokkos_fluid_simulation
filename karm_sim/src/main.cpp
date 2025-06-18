@@ -9,6 +9,7 @@ int main(int argc, char* argv[]) {
         const int T = 10;
 
         sim sim(xn, yn, xL, yL, T);
+        sim.save_vtk("first");
         sim.run(1000);
         sim.save_vtk("final");
     }

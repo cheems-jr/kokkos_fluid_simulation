@@ -6,7 +6,7 @@ set(CMAKE_CXX_COMPILER "/usr/local/bin/gcc-13")
 project(karman_vortex LANGUAGES CXX)
 
 include_directories(
-    karm_sim/include
+    include
     /usr/local/include
     /usr/local/Cellar/gcc@13/13.4.0/include/c++/13
     /usr/local/Cellar/gcc@13/13.4.0/include/c++/13/x86_64-apple-darwin23
