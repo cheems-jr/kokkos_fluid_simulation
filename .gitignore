@@ -1,3 +1,4 @@
-/build
+karm_sim/build
 .DS_Store
-/.vscode
+karm_sim/.vscode
+karm_sim/.DS_Store
