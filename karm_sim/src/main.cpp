@@ -6,10 +6,12 @@ int main(int argc, char* argv[]) {
     {
         const int xn =  256, yn = 128;
         const double xL = 2.0, yL = 1.0;
+        const int T = 10;
 
-        sim sim(xn, yn, xL, yL);
-        sim.run(10000)
-        sim.save_vtk('final');
+        sim sim(xn, yn, xL, yL, T);
+        sim.save_vtk("first");
+        sim.run(1000);
+        sim.save_vtk("final");
     }
     Kokkos::finalize();
     return 0;
